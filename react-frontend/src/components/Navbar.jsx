@@ -9,7 +9,7 @@ const Navbar = ({ onExplore, onOrder, onHome, currentPage }) => {
     { id: "home", label: "Home", onClick: () => handleHomeClick() },
     { id: "models", label: "Models", onClick: () => scrollToSection("models") },
     { id: "features", label: "Features", onClick: () => scrollToSection("features") },
-    { id: "about", label: "About", onClick: () => scrollToSection("about") },
+    { id: "about", label: "More Info", onClick: () => scrollToSection("about") },
   ];
 
   const scrollToTop = () => {
@@ -76,14 +76,14 @@ const Navbar = ({ onExplore, onOrder, onHome, currentPage }) => {
           className="flex items-center gap-3 cursor-pointer select-none"
           onClick={handleHomeClick}
         >
-          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center text-white font-bold text-lg shadow-md hover:shadow-blue-400/50 transition-all">
-            C
+          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-violet-600 to-indigo-700 flex items-center justify-center text-white font-bold text-lg shadow-md hover:shadow-blue-400/50 transition-all">
+            R
           </div>
           <div>
-            <h1 className="text-xl font-extrabold bg-gradient-to-r from-blue-700 to-indigo-700 bg-clip-text text-transparent tracking-wide">
-              CarListing
+            <h1 className="text-xl font-extrabold bg-gradient-to-r from-violet-700 to-violet-700 bg-clip-text text-transparent tracking-wide">
+              RideHeaven
             </h1>
-            <p className="text-xs text-gray-500">Drive the Future</p>
+            <p className="text-xs text-gray-500">Drive Road to Heaven</p>
           </div>
         </div>
 
@@ -155,10 +155,10 @@ const Navbar = ({ onExplore, onOrder, onHome, currentPage }) => {
       >
         <div className="flex items-center justify-between p-6 border-b border-gray-200">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-600 to-indigo-700 text-white flex items-center justify-center font-bold text-sm">
-              C
+            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-violet-600 to-indigo-700 text-white flex items-center justify-center font-bold text-sm">
+              R
             </div>
-            <span className="font-bold text-gray-900">CarListing</span>
+            <span className="font-bold text-gray-900">RideHeaven</span>
           </div>
           <button
             onClick={() => setIsMobileMenuOpen(false)}

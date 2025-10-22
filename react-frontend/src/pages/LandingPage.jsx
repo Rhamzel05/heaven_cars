@@ -14,7 +14,7 @@ const LandingPage = ({ onExplore, onOrder }) => {
     const carSlides = [
         {
             image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-4.0.1&auto=format&fit=crop&w=2000&q=80",
-            title: "Elevate Your Drive",
+            title: "Drive Beyond Ordinary",
             subtitle: "Premium Luxury Vehicles",
             description: "Experience uncompromising elegance with our curated collection of luxury automobiles, where every detail is crafted for perfection.",
             price: "Starting from $45,000",
@@ -24,7 +24,7 @@ const LandingPage = ({ onExplore, onOrder }) => {
         },
         {
             image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.1&auto=format&fit=crop&w=2000&q=80",
-            title: "Unleash Performance",
+            title: "Ignite Performance",
             subtitle: "Sports & Premium",
             description: "Feel the adrenaline with our high-performance sports models. Precision engineering meets breathtaking design for the ultimate driving experience.",
             price: "Performance from $52,000",
@@ -34,7 +34,7 @@ const LandingPage = ({ onExplore, onOrder }) => {
         },
         {
             image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?ixlib=rb-4.0.1&auto=format&fit=crop&w=2000&q=80",
-            title: "Adventure Awaits",
+            title: "The Journey Begins ",
             subtitle: "SUV & Off-Road Masters",
             description: "Our premium SUVs combine rugged capability with luxurious comfort for your greatest adventures.",
             price: "Adventure from $38,500",
@@ -44,13 +44,13 @@ const LandingPage = ({ onExplore, onOrder }) => {
         },
         {
             image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-4.0.1&auto=format&fit=crop&w=2000&q=80",
-            title: "Family Elegant",
+            title: "Family Drive",
             subtitle: "Safe & Comfortable",
             description: "Good for family journeys with safety features, spacious interiors, and technology that keeps everyone comfortable and secure.",
             price: "Family from $32,000",
             features: ["Family-Friendly", "Smart Storage"],
             badge: "👨‍👩‍👧‍👦 Family First",
-            buttonText: "View Family Cars"
+            buttonText: "Explore Family Cars"
         }
     ];
 
@@ -636,7 +636,7 @@ const LandingPage = ({ onExplore, onOrder }) => {
                                 <div className="w-10 h-10 bg-gradient-to-r from-red-600 to-pink-700 rounded-full flex items-center justify-center text-white font-bold text-lg">
                                     C
                                 </div>
-                                <span className="text-white font-bold text-2xl">CarListing</span>
+                                <span className="text-white font-bold text-2xl">RideHaven</span>
                             </div>
                             <p className="text-gray-400 mb-4 max-w-md">
                                 Your trusted partner for premium vehicles. We offer the best selection of cars with exceptional customer service.
@@ -679,7 +679,7 @@ const LandingPage = ({ onExplore, onOrder }) => {
 
                     <div className="border-t border-gray-700 mt-8 pt-8 text-center">
                         <p className="text-sm">
-                            © 2025 CarListing Motors. All rights reserved. |
+                            © 2025 RideHeaven. All rights reserved. |
                             <a href="#" className="hover:text-white transition-colors mx-2">Privacy Policy</a> |
                             <a href="#" className="hover:text-white transition-colors mx-2">Terms of Service</a> |
                             <a href="#" className="hover:text-white transition-colors mx-2">Contact Us</a>
